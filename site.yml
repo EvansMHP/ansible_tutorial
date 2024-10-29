@@ -35,7 +35,7 @@
     when: ansible_distribution == "Ubuntu"
 
   - name: install apache2 and php package for CentOS Servers
-    tage: apache,centos,httpd
+    tags: apache,centos,httpd
     dnf:
       name: 
         - httpd
