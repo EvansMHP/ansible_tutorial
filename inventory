@@ -1,4 +1,9 @@
-serv0@192.168.1.112 apache_package=apache2 php_package=libapache2-mod-php
-serv1@192.168.1.190 apache_package=apache2 php_package=libapache2-mod-php
-serv2@192.168.1.123 apache_package=apache2 php_package=libapache2-mod-php
-user@192.168.1.231 apache_package=httpd php_package=php
+[web_servers]
+serv0@192.168.1.112
+serv1@192.168.1.190
+
+[db_servers]
+serv2@192.168.1.123
+
+[file_servers]
+user@192.168.1.239
